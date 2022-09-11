@@ -1,0 +1,18 @@
+body{
+    background-color: #e8e8e8;
+    color: #2d49a6;
+}
+h1{
+    color: #38454d;
+    text-align: center;
+    font-size: 35px;
+}
+p{
+    text-align: justify;
+    font-size: 15px;
+}
+
+a{
+    color: blue;
+    text-decoration: none;/* tirar o sublinhado do link*/
+}
