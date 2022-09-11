@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Checkbox
+        </title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <h1>Cadastrar Habilitação</h1>
+        <!--Caixa de opções pode escolher varias opções-->
+        <form>
+            <label>Categoria da Habilitação</label><br>
+            <input type="checkbox" name="tp_hab" value="a">A<br>
+            <input type="checkbox" name="tp_hab" value="b">B<br>
+            <input type="checkbox" name="tp_hab" value="c">C<br>
+            <input type="checkbox" name="tp_hab" value="d">D<br>
+            <input type="checkbox" name="tp_hab" value="e">E<br>
+            
+            <input type="submit" value="Cadastrar">
+        </form>
+        <form>
+            <!--Caixa de opções pode escolher apenas uma opção-->
+            <label>Categoria da Habilitação</label><br>
+            <!--O Checked já deixa uma opção pré selecionada, serve para o checkbox também-->
+            <input type="radio" name="tp_hab" value="a" checked>A<br>
+            <input type="radio" name="tp_hab" value="b">B<br>
+            <input type="radio" name="tp_hab" value="c">C<br>
+            <input type="radio" name="tp_hab" value="d">D<br>
+            <input type="radio" name="tp_hab" value="e">E<br>
+            
+            <input type="submit" value="Cadastrar">
+        </form>
+    </body>
+</html>

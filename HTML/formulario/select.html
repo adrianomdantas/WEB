@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Select
+        </title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <h1>Cadastrar nível de acesso</h1>
+        <form>
+            <label>Nível de acesso</label>
+            <!-- pname vai servir para guardar o valor qunado for clicado no cadastrar-->
+            <!--A variável name tem qe estar junot a tag select, não pode ser usado com no checkbok-->
+            <select name="nivel_acesso">
+                <!--Abre uma caixa de opções-->
+                <option value="">Selecione</option>
+                <!--selected já deixa selecionado, e caso esta seja a opção, o valor um será enviado-->
+                <option value="1" selected>Administrador</option>
+                <option value="2">Financeiro</option>
+                <option value="3">Cliente</option>
+            </select><br>
+            <input type="submit" value="Cadastrar">
+        </form>
+    </body>
+</html>
