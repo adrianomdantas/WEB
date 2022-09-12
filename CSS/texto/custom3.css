@@ -1,0 +1,33 @@
+body{
+    color: #2d49a6;
+    background-color: #e8e8e8;
+}
+h1{
+    color: green;
+}
+p{
+    color: green;
+}
+h3{
+    color: yellowgreen;
+}
+p span{
+    color: red;
+}
+a:hover{
+    color: gold;
+}
+/*No caso de usar o id(seletor de identificação, é necessário usar o # para referencia-lo e quando for usado apenas uma vez*/
+#menu{
+    color: grey;
+}
+#conteúdo{
+    color: brown;
+}
+/*Quando usamos classe, referenciamos com . e não com # */
+.conteudo_destaq{
+    color: orangered;
+}
+.mais_acessado{
+    font-size: 23px;
+}

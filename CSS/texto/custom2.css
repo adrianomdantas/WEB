@@ -20,7 +20,7 @@ a:link{
 }
 /*Links visitados*/
 a:visited{
-    color: cadetblue;
+    color: white;
 }
 /*Mouse sobre o link*/
 a:hover{
@@ -28,16 +28,19 @@ a:hover{
 }
 /*Quando o clik for dado sobre o link*/
 a:active{
-    color: #00bf9b;
+    color: white;
 
 }
 ul{
-    background-color: #3399ff;
-    padding: 20px 0px 20px 40px; /*margem superior, direita, inferior e esquerda*/
+    background-color: darkgreen;
+    padding: 5px 0px 5px 40px; /*margem superior, direita, inferior e esquerda*/
 }
 /*personalizar listas*/
 /*usando ul li, apenas as li que estão dentro de uma ul serão alteradas*/
 ul li{
-    background-color: #cce5ff;
-    margin: 5px 0px; /*colocando 2 parâmetros, os outros 2 parâmetros serão repetidos*/
+    display: inline;
+    color:white;
+    text-shadow: #f2cb00;
+    margin: 5px; /*colocando 2 parâmetros, os outros 2 parâmetros serão repetidos*/
+    padding: 10px;
 }
