@@ -6,6 +6,7 @@ h1{
     color: #38454d;
     text-align: center;
     font-size: 35px;
+    font-family:'Times New Roman', Times, serif;
 }
 p{
     text-align: justify;
@@ -15,7 +16,7 @@ p{
 /*Para editar apenas o link utiliza-se apenas o a, neste caso vamos usar o a:link*/
 /*Editar links não visitados*/
 a:link{
-    color: blue;
+    color: white;
     text-decoration: none;/* tirar o sublinhado do link*/
 }
 /*Links visitados*/
@@ -43,4 +44,5 @@ ul li{
     text-shadow: #f2cb00;
     margin: 5px; /*colocando 2 parâmetros, os outros 2 parâmetros serão repetidos*/
     padding: 10px;
+    font-size: 20px;
 }
