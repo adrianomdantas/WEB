@@ -6,7 +6,7 @@ body{
 header{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 60px;
-    background-color: #e8e8e8;
+    background-color: white;
     color: darkgreen;
     border-bottom: 5px solid;
     border-color:#e8e8e8 #e8e8e8 black #e8e8e8;
@@ -18,7 +18,7 @@ header{
     
 }
 nav{
-    background-color: #e8e8e8;
+    background-color: white;
     border-top: 1px solid;
     border-bottom: 1px solid;
     text-align: center;
