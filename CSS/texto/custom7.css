@@ -40,3 +40,20 @@ a{
     text-decoration: none;
 }
 
+p, h3, h1,img{
+    text-align: justify;
+
+}
+
+#subtitulo{
+    color: darkslategray;
+    font-size: 16px;
+}
+.corpo{
+    width: 700px;
+    margin: auto;
+}
+.imagem{
+    width: 300;
+    height: 300;
+}

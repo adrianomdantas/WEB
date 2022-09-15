@@ -13,5 +13,5 @@ function desconto(a, b){
     //document.write(`Valor total do desconto: ${totdesc}`);
 }
 //desconto(97, 15);
-var resultTotalDesc = desconto(50, 20);
-document.write(`Valor total do desconto: ${resultTotalDesc}`)
+//var resultTotalDesc = desconto(50, 20);
+document.write(`Valor total do desconto: ${desconto(50, 20)}`)
