@@ -54,6 +54,6 @@ p, h3, h1,img{
     margin: auto;
 }
 .imagem{
-    width: 300;
-    height: 300;
+    width: 400px;
+    margin-left: 20%;
 }
