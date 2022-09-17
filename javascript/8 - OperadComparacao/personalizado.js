@@ -1,6 +1,13 @@
 var n1 = 9;
 var n2 = 8;
-
+/*
+== Igualdade
+< Menor
+> Maior
+!= diferente
+<= Menos ou igual
+>= Maior ou igual
+*/
 document.write(`<h2> Operador de comparação Igual a</h2>`);
 if(n1 == n2){
     document.write(`O valor ${n1} é igual o valor ${n2}`);
