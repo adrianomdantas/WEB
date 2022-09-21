@@ -1,24 +1,35 @@
-function carregarConteudo(){
-    document.getElementById("conteudo").innerHTML = "Texto para testar um evento no javascript";
-}
-function mouseOver(){
-    document.getElementById("mouseAlt").innerHTML = "Retire o mouse";
-}
-function mouseOut(){
-    document.getElementById("mouseAlt").innerHTML = "Passe o  mouse";
-}
-function converTexto(){
-    var nome = document.getElementById("nome");
-    nome.value = nome.value.toUpperCase();
-}
-function validarSenha(){
-    var senha = document.getElementById("senha").value;
+//O getElementById é utilizado para acessar um seletor id
+document.getElementById("exemplo-um").innerHTML = "inserir texto no exemplo um";
 
-    if(senha == "" || senha.length <= 5 ){
-        document.getElementById("erroSenha").innerHTML = "<span style= 'color: #ff0000;'> Preencha o campo senha com no mínimo 6 caracteres</span>";
+ //O getElementByName é utilizado para acessar um seletor id é utilizado para acessar varios elementos , utilizado lara formulários, pode receber mais de um elemento
+function exemploDois(){
+    var nomeElemento = document.getElementsByName("Curso");
+    console.log(nomeElemento);
+// Tamanho do nodelist
+    console.log(`Tamanho do nodelist ${nomeElemento.length}`);
+    // Ler um elemento do nodelist individual
+    console.log(`Elemento da posição 2: ${nomeElemento[2]['value']}`);
+    for(var i = 0; i < nomeElemento.length; ++i){
+        console.log(nomeElemento[i]['value']);
     }
-    else{
-        document.getElementById("erroSenha").innerHTML = "<span style= 'color: #00ff00;'> Senha válida</span>";
-    }
-
 }
+ //O getElementBytagname é utilizado para acessar uma tag
+function exemploTres(){
+    var nomeTag = document.getElementsByTagName("span");
+    console.log(nomeTag);
+    console.log(`O Tamanho do nomeTag é ${nomeTag.length}`);
+    console.log(`Posição 0 ${nomeTag[0]['innerHTML']}`)
+    for(var i = 0; i < nomeTag.length; ++i){
+        console.log(nomeTag[i]['innerText'])
+    }
+}
+ 
+ function exemploQuatro(){
+    var nomeTagLista = document.getElementsByTagName("li");
+    console.log(nomeTagLista);
+ }
+ //O getElementByClassName para acessar atravém no nome da classe
+ function exemploCinco(){
+    var nomeClasse = document.getElementsByClassName("produto");
+    console.log(nomeClasse);
+ }
